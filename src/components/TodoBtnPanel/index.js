@@ -1,2 +1,3 @@
-import TodoBtnPanel from "./TodoBtnPanel";
-export default TodoBtnPanel;
+import TodoAdd from "./TodoBtnPanel";
+
+export default TodoAdd;

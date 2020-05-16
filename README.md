@@ -66,3 +66,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+{
+"useTabs": false, // использовать табы? нет (я за пробелы)
+"printWidth": 80, // длина строки - 80
+"tabWidth": 2, // длина "таба" - 2 пробела
+"singleQuote": true, // использовать одинарные кавычки - да!
+"trailingComma": "es5", // запятая в последней строке - да
+"jsxBracketSameLine": false, // закрывающийся jsx в этой же строке
+"parser": "flow", // парсер - flow (пока не важно)
+"semi": false // точка с запятой - нет
+}

@@ -3,7 +3,7 @@ import TodoListItem from "../TodoListItem/TodoListItem";
 import "./TodoList.css";
 
 const TodoList = (props) => {
-  const { todos, myFunc, myFunc2 } = props;
+  const { todos, onToggleLike, onToggleImp, onDeleteItem } = props;
   return (
     <ul className="app-list list-group">
       {todos.map((todo) => {
@@ -11,11 +11,16 @@ const TodoList = (props) => {
           <TodoListItem
             key={todo.id}
             title={todo.title}
-            myFunc1={() => {
-              myFunc(todo.id);
+            important={todo.important}
+            like={todo.like}
+            onToggleLike={() => {
+              onToggleLike(todo.id);
             }}
-            myFuncLike={() => {
-              myFunc2(todo.id);
+            onToggleImp={() => {
+              onToggleImp(todo.id);
+            }}
+            onDeleteItem={() => {
+              onDeleteItem(todo.id);
             }}
           />
         );
