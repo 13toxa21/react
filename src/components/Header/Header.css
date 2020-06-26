@@ -1,0 +1,46 @@
+.header {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1440px;
+    position: absolute;
+    top: 5%;
+    left: 13%;
+    margin: 0 auto;
+}
+
+.head {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 355px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.head a .logo {
+    width: 35px;
+    height: 35px;
+}
+
+.head li {
+    display: inline-block;
+}
+
+.head li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.head .our-coffee {
+    margin-top: 23px;
+}
+
+.head li:hover {
+    font-size: 14px;
+
+}

@@ -1,0 +1,44 @@
+.footer {
+    margin: 0 auto;
+    width: 1440px;
+    max-width: 100%;
+    background: #FFFFFF;
+}
+
+.footer .center-footer {
+    margin: 0 auto;
+    padding: 0;
+    width: 850px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer .center-footer li {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 40px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+}
+.footer .center-footer li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer .center-footer li:hover {
+    font-size: 14px;
+
+}
+
+.footer .images-footer {
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: 21px;
+    width: 850px;
+}

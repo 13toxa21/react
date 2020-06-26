@@ -1,0 +1,27 @@
+.goods {
+    margin: 0 auto;
+    width: 1440px;
+    background-image: url("../../../images/GoodsPAgeBG.jpg");
+    background-repeat: no-repeat;
+}
+
+
+.goods .textContent {
+    margin-top: 115px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.goods h1 {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-top: 124px;
+    padding-bottom: 79px;
+    margin: 0;
+}
